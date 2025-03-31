@@ -10,7 +10,7 @@ from code.player import Player
 
 
 class EntityFactory:
-
+    @staticmethod
     def get_entity(entity1_name: str, position=(0, 0), WIN=None):
         match entity1_name:
             case 'Level2':
